@@ -1,0 +1,2 @@
+<!--pages/api/download/download.wxml-->
+<button bindtap="downloadFn">点击下载</button>

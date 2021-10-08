@@ -1,0 +1,17 @@
+<!--pages/demo/scroll/scroll.wxml-->
+<view class="box">
+  <scroll-view class="scroll-view" scroll-y="true" scroll-top="{{0}}">
+    <view class="scroll-view-item" wx:for="{{list1}}" wx:key="index" >
+      {{index+1}}
+    </view>
+  </scroll-view>
+</view>
+
+
+<view class="box">
+  <scroll-view class="scroll-view" scroll-y="true" scroll-top="{{0}}">
+    <view class="scroll-view-item" wx:for="{{list2}}" wx:key="index" >
+      {{index+1}}
+    </view>
+  </scroll-view>
+</view>

@@ -1,0 +1,3 @@
+<!--pages/api/log/log.wxml-->
+<button bindtap="infoFn" style="margin-bottom: 20rpx;">info</button>
+<button bindtap="warnFn" style="margin-bottom: 20rpx;">warn</button>

@@ -1,0 +1,12 @@
+<!--授权-->
+<view class="do-sth-model-wrap" wx:if="{{guideAuthorizeModelFlag}}">
+    <view class="gray-box" bindtap="closeGuideAuthorizeModelFn" ></view>
+    <view class="do-sth-model">
+      <view class="title">您还未授权</view>
+      <view class="describe">{{describe}}</view>
+      <button class="comfirm-btn"  open-type="openSetting" bindopensetting="bindopensettingFn" bindtap="openSetting"> 去授权 </button >
+      <view class="close-btn" bindtap="closeGuideAuthorizeModelFn">
+      	<view class="close-isa"></view>
+      </view>
+    </view>
+  </view>

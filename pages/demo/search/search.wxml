@@ -1,0 +1,3 @@
+<search bindremoveSearchKeyFn="removeSearchKeyFn" bindinputSearchFn="inputSearchFn" bindconfirmFn="confirmFn"></search>
+
+<button bindtap="clickFn">点击</button>

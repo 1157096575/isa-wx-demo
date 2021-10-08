@@ -1,0 +1,11 @@
+<!--pages/api/image/image.wxml-->
+<button bindtap="tapFn" style="margin-bottom: 20rpx;">选择图片</button>
+
+<view>imgScan</view>
+<image src="{{imgScan}}" class="image-scan" mode="aspectFill"></image>
+
+<view>imgOri</view>
+<image src="{{imgOri}}" class="image-ori" mode="aspectFill"></image>
+
+<canvas canvas-id='photo_canvas'  type="2d"
+    id="photo_canvas" style='width:120px;height:{{canvas_h}}px;position: fixed; z-index: -999; left: -1111px; top: 0;' class='myCanvas'></canvas>

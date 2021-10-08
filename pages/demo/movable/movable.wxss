@@ -1,0 +1,21 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+.movable-area{
+  width: 100%;
+  height:100%;
+  background: #e5e5e5;
+}
+.movable-view{
+  width: 100rpx;
+  height: 100rpx;
+  position: fixed;
+  right: 0;
+  bottom:0;
+  z-index: 100;
+  background: #eee;
+  text-align: center;
+  line-height: 100rpx;
+  color: var(--theme-color);
+}

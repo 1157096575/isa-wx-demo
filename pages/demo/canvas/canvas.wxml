@@ -1,0 +1,3 @@
+<button class="btn" loading="{{saveLoading}}" bindtap="saveCanvas">保存</button>
+<isa-canvas id="isaCanvas" bindsaveImageFailFn="saveImageFailFn" bindsaveImageSuccessFn="saveImageSuccessFn" bindhideLoading="hideLoading"></isa-canvas>
+<guide-auth id="guideAuth" scope="writePhotosAlbum" bindnextStepFn="guideAuthNextStep"></guide-auth>

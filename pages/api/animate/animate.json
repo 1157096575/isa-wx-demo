@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "animation",
+  "usingComponents": {
+    "ani": "./childCpns/ani/ani"
+  }
+}

@@ -1,0 +1,36 @@
+<!--picker-->
+<view class="full-box {{isOpen?'cur':''}}">
+	<view class="modal" bindtap="cancle"></view>
+
+	<view class="picker">
+		<view class="picker-header" style="{{pickerHeaderStyle}}">
+			<view class="cancle-btn" bindtap="cancle" >
+				<text style="{{cancelStyle}}">{{cancelText}}</text>
+			</view>
+			<text style="{{titleStyle}}">{{titleText}}</text>
+			<view class="sure-btn" bindtap="sure">
+				<text  style="{{sureStyle}}">{{sureText}}</text>
+			</view>
+		</view>
+      <picker-view
+        wx:if="{{columnsData && columnsData.length > 0}}"
+        value="{{value}}"
+        class="picker-content"
+        bindpickstart="_bindpickstart"
+        bindchange="_bindChange"
+        bindpickend="_bindpickend"
+        mask-style="{{maskStyle}}"
+        indicator-style="{{indicatorStyle}}"
+      >
+        <picker-view-column wx:for="{{columnsData}}" wx:key="{{index}}">
+          <view wx:for="{{item}}" wx:for-item="itemIn" class="picker-line" wx:key="{{index}}">
+            <text class="line1" style="{{chooseItemTextStyle}}">{{isUseKeywordOfShow?itemIn[keyWordsOfShow]:itemIn}}</text>
+          </view>
+        </picker-view-column>
+      </picker-view>
+      <view wx:else class="loading-box">
+        <image class="loading-img" src="/images/loading.gif"></image>
+        <view class="loading-text">加载中......</view>
+      </view>
+	</view>
+</view>

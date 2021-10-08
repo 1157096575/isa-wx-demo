@@ -1,0 +1,5 @@
+<!--pages/api/index/index.wxml-->
+<navigator hover-class="navigator-hover" url="/pages/api/animate/animate">animation</navigator>
+<navigator hover-class="navigator-hover" url="/pages/api/download/download">download</navigator>
+<navigator hover-class="navigator-hover" url="/pages/api/log/log">log</navigator>
+<navigator hover-class="navigator-hover" url="/pages/api/image/image">image</navigator>

@@ -1,0 +1,14 @@
+<!--pages/demo/index/index.wxml-->
+<navigator hover-class="navigator-hover" url="/pages/demo/canvas/canvas">canvas</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/movable/movable">movable</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/richText/richText">richText</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/recycleView/recycleView">recycleView</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/picker/picker">picker</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/wxs/wxs">wxs</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/tab/tab">tab</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/paging/paging">paging</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/swiper/swiper">swiper</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/countdown/countdown">countdown</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/scroll/scroll">scroll</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/search/search">search</navigator>
+<navigator hover-class="navigator-hover" url="/pages/demo/title/title">title</navigator>

@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/demo/index/index",
+    "pages/demo/movable/movable",
+    "pages/demo/richText/richText",
+    "pages/demo/canvas/canvas",
+    "pages/demo/recycleView/recycleView",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demo/test/test",
+    "pages/demo/picker/picker",
+    "pages/api/download/download",
+    "pages/api/log/log",
+    "pages/api/image/image",
+    "pages/api/index/index",
+    "pages/api/animate/animate",
+    "pages/demo/wxs/wxs",
+    "pages/demo/tab/tab",
+    "pages/demo/paging/paging",
+    "pages/demo/swiper/swiper",
+    "pages/demo/countdown/countdown",
+    "pages/demo/scroll/scroll",
+    "pages/demo/search/search",
+    "pages/demo/title/title"
+  ],
+  "tabBar": {
+    "color": "#b2b2b2",
+    "selectedColor": "#f8cc26",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/api/index/index",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/2.png",
+        "text": "api"
+      },
+      {
+        "pagePath": "pages/demo/index/index",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/2.png",
+        "text": "demo"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/2.png",
+        "text": "i"
+      }
+    ]
+  },
+  "usingComponents": {
+    "recycle-view": "components/cus-recycle-view/recycle-view",
+    "recycle-item": "components/cus-recycle-view/recycle-item"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

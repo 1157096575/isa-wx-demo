@@ -1,0 +1,15 @@
+/* component/isaWxParse/isaWxParse.wxss */
+/*=====兼容之前的==start==*/
+@import "../wxParse/wxParse.wxss";
+
+.wxParse-inline{
+  display: inline;
+  letter-spacing: 1rpx;
+}
+.wxParse-img{
+  max-width: 100%;
+}
+
+.wxParse-style{
+  display: none;
+}

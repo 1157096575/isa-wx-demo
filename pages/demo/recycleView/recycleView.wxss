@@ -1,0 +1,22 @@
+page, .wrapper{
+  height: 100%;
+}
+.list {
+  text-align: center;
+  padding: 0;
+  color: var(--theme-color);
+}
+.recycle-item.item-1{
+  background: rgba(63, 161, 226, 0.8) ;
+}
+.recycle-item.item-2{
+  background: #f2f2f2;
+}
+.list-item {
+  /* 设置border方便观察布局 */
+  border: 1px solid rgb(63, 164, 247);
+  /* border-box防止元素高度因为border变化 */
+  box-sizing: border-box;
+  /* 这里如果不设置成flex，图片定位会出现问题，并不知道原因 */
+  /* display: flex; */
+}

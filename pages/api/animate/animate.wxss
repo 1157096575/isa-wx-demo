@@ -1,0 +1,12 @@
+/* pages/api/animation/animation.wxss */
+.content-box1 {
+  overflow: hidden;
+  width: 100%;
+}
+ 
+.content-text1 {
+  color: #5e5e5e;
+  white-space: nowrap;
+  font-size: 24rpx;
+}
+

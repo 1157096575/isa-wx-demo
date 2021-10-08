@@ -1,0 +1,11 @@
+.content-box {
+  overflow: hidden;
+  /* width: 670rpx; */
+  width: 100%;
+}
+ 
+.content-text {
+  color: #5e5e5e;
+  white-space: nowrap;
+  font-size: 22rpx;
+}

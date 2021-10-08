@@ -1,0 +1,4 @@
+<movable-area class='movable-area'>
+  <movable-view class='movable-view' x='{{x}}' y='{{y}}' animation="{{animationFlag}}" direction='all' bindtouchstart='onShareMoveStart' bindtouchmove='onShareMoving' bindtouchend='onShareMoveEnd'> txt
+  </movable-view>
+</movable-area>

@@ -1,0 +1,36 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/demo/canvas/canvas",
+          "pathName": "pages/demo/canvas/canvas",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo/swiper/swiper",
+          "pathName": "pages/demo/swiper/swiper",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo/tab/tab",
+          "pathName": "pages/demo/tab/tab",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

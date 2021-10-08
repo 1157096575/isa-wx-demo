@@ -1,0 +1,11 @@
+<!--pages/demo/search/childCpns/search.wxml-->
+<!--搜索框-->
+<view class="search-box-wrap" >
+	<view class="search-box" >
+		<view class="search-input-box">
+			<icon type="search" class="search-icon" size="36rpx"></icon>
+			<icon type="clear" class="close-btn" size="26rpx" bindtap="removeSearchKeyFn" wx:if="{{searchKey}}"></icon>
+			<input type="text" focus="{{focus}}" class="search-input" placeholder-class="placeholder-class" placeholder="{{placeholderTxt}}" value="{{searchKey}}" confirm-type="search" bindinput="bindInputSearchFn" bindconfirm="bindconfirmFn"></input>
+		</view>
+	</view>
+</view>

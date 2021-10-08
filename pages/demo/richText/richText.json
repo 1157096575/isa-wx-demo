@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "richText",
+  "usingComponents": {
+    "cus-wx-parse": "/components/cusWxParse/cusWxParse"
+  }
+}

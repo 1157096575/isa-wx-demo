@@ -1,0 +1,5 @@
+<!--pages/demo/richText/richText.wxml-->
+<view class="container">
+	<cus-wx-parse wx:if="{{html}}" html="{{html}}"></cus-wx-parse>
+	<rich-text nodes="{{html}}"></rich-text>
+</view>

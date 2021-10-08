@@ -1,0 +1,14 @@
+<view class="title-wrap">
+  <view class="title">
+    <scroll-view scroll-x="true" class='tab-nav' scroll-into-view='{{toView}}' scroll-with-animation="true">
+      <view class='tab-nav-box clear' style="width:calc({{ scrollWidth + 'px' }})">
+        <view id="{{'idx' + index}}" wx:for="{{navlist}}" wx:key="unique"
+          class='tab-nav-item {{currentTab==index?"on":""}}  {{currentTab==index && count ? "pr-0":""}}'
+          data-currenttab="{{index}}" bindtap='tab'>
+          <view class="tab-nav-item-txt">{{item}}</view>
+          <view class="tab-nav-item-num" wx:if="{{currentTab==index && count}}">{{count}}</view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

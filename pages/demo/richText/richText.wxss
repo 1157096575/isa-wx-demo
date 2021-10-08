@@ -1,0 +1,7 @@
+/* pages/demo/richText/richText.wxss */
+.container{
+  padding: 20rpx;
+  background: #f1f2f3;
+  text-align: justify;
+  width: 100%;
+}

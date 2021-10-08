@@ -1,0 +1,1 @@
+<canvas class="canvas" style="width:{{350}}px;height:{{575}}px;position:fixed; left:3px; top:130rpx;z-index:0;" id="canvasId" type="2d"></canvas>

@@ -1,0 +1,70 @@
+page{
+  box-sizing: border-box;
+  color: #333;
+  font-size: 30rpx;
+  height:100%;
+  width: 750rpx;
+  position: relative;
+  background: #fff;
+  --theme-color: #f8cc26;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 6rpx;
+  /*滚动条的宽度*/
+  height: 6rpx;
+  color: #ffffff;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 20rpx rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 12rpx rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx;
+  background-color: #efefef;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 20rpx;
+  -webkit-box-shadow: inset 0 0 20rpx rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 12rpx rgba(0, 0, 0, 0.1);
+  background-color: #c2c2c2;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.clear:before,
+.clear:after {
+  content: "";
+  display: table;
+}
+
+.clear:after {
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+
+.elli {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.elli2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

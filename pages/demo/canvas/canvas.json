@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "canvas",
+  "usingComponents": {
+    "isa-canvas": "./childCpns/canvas/canvas",
+    "guide-auth": "/components/guideAuth/guideAuth"
+  }
+}

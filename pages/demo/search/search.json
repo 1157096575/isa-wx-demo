@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "search",
+  "usingComponents": {
+    "search" : "./childCpns/search"
+  }
+}

@@ -1,0 +1,9 @@
+/* pages/api/image/image.wxss */
+.image-scan{
+  width: 200rpx;
+  height: 200rpx;
+}
+.image-ori{
+  width: 300rpx;
+  height: 300rpx;
+}

@@ -1,0 +1,6 @@
+<!--pages/api/animation/childCpns/ani/ani.wxml-->
+<view style="width:700rpx; background: rgba(251,215,64,0.2); position: fixed; left: 25rpx;top:200rpx;">
+  <view class='content-box' >
+    <view class='content-text' animation="{{animationData}}"><text id="text">{{text}}</text></view>
+  </view>
+</view>

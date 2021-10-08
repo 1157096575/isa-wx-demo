@@ -1,0 +1,9 @@
+<!--pages/demo/picker/picker.wxml-->
+<button bindtap="pickerTimeShow">time</button>
+<view>~ {{time}} ~</view>
+<button bindtap="pickerAreaShow">area</button>
+<view>~ {{area}} ~</view>
+<picker isShowPicker="{{isShow_time}}" keyWordsOfShow="name" defaultPickData="{{defaultPickData_time}}"
+    bindsure="sureCallBack_time" bindcancle="cancleCallBack_time" scrollType="link" titleText="选择时间"
+    listData="{{listData_time}}" titleTab="{{titleTab_time}}"></picker>
+<picker-area isShowPicker="{{isShow_area}}" id="pickerArea" bindcancle="cancleCallBack_area" bindsure="sureCallBack_area" choosedIndexArr_area="{{choosedIndexArr_area}}"></picker-area>

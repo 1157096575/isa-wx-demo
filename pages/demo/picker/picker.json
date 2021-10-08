@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "picker",
+  "usingComponents": {
+    "picker": "./childCpns/cusPicker/cusPicker",
+    "picker-area": "./childCpns/pickerArea/pickerArea"
+  }
+}
